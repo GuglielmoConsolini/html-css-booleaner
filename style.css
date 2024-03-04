@@ -1,6 +1,5 @@
 *{
 box-sizing: border-box;
-padding: 0;
 margin: 0;
 }
 
@@ -17,9 +16,11 @@ margin: 0;
     position: absolute;
     bottom: 0;
     left: 0;
+    
 }
 span{
     color: rgba(0, 0, 0, 0.6);
+    
 }
 #date{
     color: rgba(0, 0, 0, 0.6);
@@ -37,5 +38,39 @@ figure{
 .ghost{
     color: white;
 }
+
+.row-left{
+    display: inline-block;
+    width: 33%;
+}
+.row-center{
+    display: inline-block;
+    width: 33%;
+    
+}
+.row-right{
+    display: inline-block;
+    width: 33%;
+}
+.row{
+    background-color: deepskyblue;
+}
+
+.row2{
+    background-color: lightskyblue;
+    padding-bottom: 20px;
+    
+}
+
+.row3{
+    padding-bottom: 20px;
+}
+
+.row4{
+    background-color: lightskyblue;
+    padding-bottom: 20px;
+
+}
+
 
 
