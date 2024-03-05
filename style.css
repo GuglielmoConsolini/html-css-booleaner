@@ -7,15 +7,15 @@ margin: 0;
     background-image: url(./img/pattern.png);
     height: 170px;
     background-color: deepskyblue;
-    position: relative;
+    
 }
 
 .logo{
-    width: 20%;
+    margin-top: 120px;
     height: 20%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    padding-left: 5px;
+    
+    
     
 }
 span{
@@ -31,9 +31,7 @@ span{
     color: lightskyblue;
 }
 
-figure{
-    display: inline-block;
-}
+
 
 .ghost{
     color: white;
